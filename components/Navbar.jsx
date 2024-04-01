@@ -15,13 +15,14 @@ const Navbar = ({Searchproducts}) => {
   return (
     <nav>
       <Link href='/'>
-        <Image src={logo} width={140} height={25} alt='logo' />
+        {/* <Image src={logo} width={140} height={25} alt='logo' /> */}
+        <h1>CorporateThread</h1>
       </Link>
       <ul className='nav-links'>
-        <Link href='/female'><li>Female</li></Link>
-        <Link href='/male'><li>Male</li></Link>
-        <Link href='/kids'><li>Kids</li></Link>
-        <Link href='/products'><li>All Products</li></Link>
+        {/* <Link href='/female'><li>Female</li></Link> */}
+        <Link href='/male'><li>Products</li></Link>
+        {/* <Link href='/kids'><li>Kids</li></Link> */}
+        {/* <Link href='/products'><li>All Products</li></Link> */}
       </ul>
 
         <div className='search-bar'>

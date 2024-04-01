@@ -3,6 +3,7 @@ import { client, urlFor } from '../../lib/client'
 import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai'
 import {CgShoppingCart} from 'react-icons/cg'
 import { useStateContext } from '../../context/StateContext';
+import data from "./data.json";
 
 const ProductDetails = ({products, product}) => {
     const { image, name, details, price, tags, care } = product;
@@ -20,16 +21,21 @@ const ProductDetails = ({products, product}) => {
             <div className='product-detail-container'>
                 <div className='product-images'>
                     <div className='small-images-container'>
-                        {image?.map((item, ind) => (
+                        {/* {image?.map((item, ind) => (
                             <img 
                             key={ind}
                             src={urlFor(item)} 
                             className='small-image' 
                             onMouseEnter={() => setIndex(ind)} />
-                        ))}
+                        ))} */}
+                        <img 
+                            src={image[0].asset._ref} 
+                            className='small-image' 
+                            onMouseEnter={() => setIndex(ind)} />
                     </div>
                     <div className='big-image-container'>
-                        <img src={urlFor(image && image[index])} />
+                        {/* <img src={urlFor(image && image[index])} /> */}
+                        <img src={image[0].asset._ref}  />
                     </div>
                 </div>
                 <div className='product-details'>
@@ -57,7 +63,7 @@ const ProductDetails = ({products, product}) => {
                     </div>
                     <div className='add-to-cart'>
                         <button className='btn' type='button' onClick={() => onAdd(product, qty)}><CgShoppingCart size={20} />Add to Cart</button>
-                        <p className='price'>${price}.00</p>  
+                        <p className='price'>₹{price}.00</p>  
                     </div>
                 </div>
             </div>
@@ -88,10 +94,38 @@ const ProductDetails = ({products, product}) => {
 export default ProductDetails
 
 export const getStaticProps = async ({params: {slug}}) => {
-    const query = `*[_type == "product" && slug.current == '${slug}'][0]`;
-    const productsQuery = '*[_type == "product"]'
-    const product = await client.fetch(query);
-    const products = await client.fetch(productsQuery)
+    console.log(slug);
+    // const query = `*[_type == "product" && slug.current == '${slug}'][0]`;
+    // const productsQuery = '*[_type == "product"]';
+    // console.log(query);
+    const product = {};
+    // const product = await client.fetch(query);
+    // console.log(JSON.stringify(product));
+    // const products = await client.fetch(productsQuery)
+    const products = {};
+    // console.log(products);
+    console.log(JSON.stringify(data[0]));
+
+    if(slug == "raglan-sweatshirt"){
+        return {
+            props: {products, product : data[0]}
+        }
+    }
+    if(slug == "1"){
+        return {
+            props: {products, product : data[0]}
+        }
+    }
+    if(slug == "2"){
+        return {
+            props: {products, product : data[1]}
+        }
+    }
+    if(slug == "3"){
+        return {
+            props: {products, product : data[2]}
+        }
+    }
   
     return {
       props: { products, product }

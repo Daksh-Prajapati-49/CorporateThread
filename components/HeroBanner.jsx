@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import {CgShoppingCart} from 'react-icons/cg'
-import headerImg from '../src/assets/header.png'
+import headerImg from '../src/assets/removed_bg.png'
 import featured1 from '../src/assets/Featured1.png';
 import featured2 from '../src/assets/Featured2.png';
 import featured3 from '../src/assets/Featured3.png';
@@ -16,7 +16,7 @@ const HeroBanner = () => {
                 <span>Sale 70%</span>
                 <h1>An Industrial Take on Streetwear</h1>
                 <p>Anyone can beat you but no one can beat your outfit as long as you wear Dine outfits.</p>
-                <Link href='/products'>
+                <Link href='/male'>
                      <button className='btn' type='button'><CgShoppingCart size={26} />  Start Shopping</button>
                 </Link>
             </div>
@@ -30,8 +30,8 @@ const HeroBanner = () => {
         </div>
 
         <div className='header-right-side'>
-            <div className='header-circle'>
-                <Image className='header-img' src={headerImg} width={650} height={650} alt='header image' />
+            <div className='header-circle' style={{"display":"flex", "justifyContent": "center"}}>
+                <Image className='header-img' src={headerImg} width={450} height={650} alt='header image' />
             </div>
         </div>
     </header>

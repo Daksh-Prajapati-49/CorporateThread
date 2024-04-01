@@ -3,16 +3,17 @@ import {client} from '../lib/client'
 import { HeroBanner, EventsBanner, Newsletter, FeaturesBanner, Product } from '../components'
 import { Navigation, A11y, Lazy } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import products from './product/data.json'
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-const Home = ({products}) => {
+const Home = () => {
   return (
     <>
       <HeroBanner />
-      <EventsBanner />
+      {/* <EventsBanner /> */}
 
       <div className='products-outer-container'>
         <div className='subtitle'>

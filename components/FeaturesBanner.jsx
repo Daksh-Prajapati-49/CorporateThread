@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import img from '../src/assets/feature.png'
+// import img from '../src/assets/feature.png'
+import img from '../src/assets/img/1.jpeg'
 import Link from 'next/link'
 
 const FeaturesBanner = () => {
@@ -34,7 +35,7 @@ const FeaturesBanner = () => {
         </div>
 
         <div className='right'>
-          <Image src={img} width={300} height={350} alt='img' />
+          <Image src={img} width={300} height={300} alt='img' />
           <div>
             <p>This piece is ethically crafted in our small family-owned workshop in Peru with unmatched attention to detail and care. The Natural color is the actual natural color of the fiber, undyed and 100% traceable.</p>
             <Link href={'/products'}>

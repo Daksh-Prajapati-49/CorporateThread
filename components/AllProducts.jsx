@@ -9,8 +9,8 @@ const Allproducts = ({allproducts: {image, name, slug, tags, price}}) => {
             <div className='Allproduct-card'>
               <img src={urlFor(image && image[0])} width={250} height={270} />
               <p className='Allproduct-name'>{name}</p>
-              <p className='Allproduct-tags'>{tags}</p>
-              <p className='Allproduct-price'>${price}</p>
+              <p className='Allproduct-tags'>Casual Shirts</p>
+              <p className='Allproduct-price'>₹695</p>
             </div>
           </Link>
         </div>

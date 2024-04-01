@@ -1,0 +1,299 @@
+[
+{
+    "image": [
+        {
+            "_type": "image",
+            "_key": "07a4b0d2d365",
+            "asset": {
+                "_ref": "https://lh3.google.com/u/0/d/1WKxhOAOmZJrP1Raxyro53J6HHU_NBHrP=w2000-h1362-iv1",
+                "_type": "reference"
+            }
+        }
+    ],
+    "name": "Bottle Green",
+    "category": "Male",
+    "_updatedAt": "2022-12-27T15:33:15Z",
+    "slug": {
+        "current": "Bottle-Green",
+        "_type": "slug"
+    },
+    "care": [
+        {
+            "markDefs": [],
+            "children": [
+                {
+                    "text": "Hand wash using cold water.",
+                    "_key": "c4011bb6484b0",
+                    "_type": "span",
+                    "marks": []
+                }
+            ],
+            "_type": "block",
+            "style": "normal",
+            "_key": "99d6cccc3e69"
+        },
+        {
+            "markDefs": [],
+            "children": [
+                {
+                    "_type": "span",
+                    "marks": [],
+                    "text": "Do not using bleach.",
+                    "_key": "8671a8756b280"
+                }
+            ],
+            "_type": "block",
+            "style": "normal",
+            "_key": "44877962db5c"
+        },
+        {
+            "children": [
+                {
+                    "_type": "span",
+                    "marks": [],
+                    "text": "Hang it to dry.",
+                    "_key": "6f0e31cf758a0"
+                }
+            ],
+            "_type": "block",
+            "style": "normal",
+            "_key": "167658a38521",
+            "markDefs": []
+        },
+        {
+            "_type": "block",
+            "style": "normal",
+            "_key": "7ea4818841fa",
+            "markDefs": [],
+            "children": [
+                {
+                    "_key": "4fd433a2f2150",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "Iron on low temperature."
+                }
+            ]
+        }
+    ],
+    "_rev": "vz3Lz6BV8NTrCpLY2ozzKn",
+    "_type": "product",
+    "tags": "Casual Shirts",
+    "price": 695,
+    "_createdAt": "2022-12-27T15:33:15Z",
+    "details": [
+        {
+            "children": [
+                {
+                    "text": " Crafted from premium quality cotton, these shirts offer a soft, breathable feel perfect for everyday wear. With a variety of vibrant colors and timeless patterns, they effortlessly elevate your casual wardrobe. Pair them with jeans or chinos for a relaxed yet polished look that transitions seamlessly from day to night. Experience the ultimate blend of comfort and style with our casual cotton shirts.",
+                    "_key": "207d5bbb412d0",
+                    "_type": "span",
+                    "marks": []
+                }
+            ],
+            "_type": "block",
+            "style": "normal",
+            "_key": "ba3ed1133174",
+            "markDefs": []
+        }
+    ],
+    "_id": "e9a6ab2f-adc1-4a72-8ebf-a04e5d7b0"
+},
+{
+    "image": [
+        {
+            "_type": "image",
+            "_key": "07a4b0d2d365",
+            "asset": {
+                "_ref": "https://lh3.google.com/u/0/d/1uU4l8vmtggyX6kY07RJ8DhnVZdI9K3tF=w2000-h1362-iv1",
+                "_type": "reference"
+            }
+        }
+    ],
+    "name": "Dark Grey",
+    "category": "Male",
+    "_updatedAt": "2022-12-27T15:33:15Z",
+    "slug": {
+        "current": "Dark-Grey",
+        "_type": "slug"
+    },
+    "care": [
+        {
+            "markDefs": [],
+            "children": [
+                {
+                    "text": "Hand wash using cold water.",
+                    "_key": "c4011bb6484b0",
+                    "_type": "span",
+                    "marks": []
+                }
+            ],
+            "_type": "block",
+            "style": "normal",
+            "_key": "99d6cccc3e69"
+        },
+        {
+            "markDefs": [],
+            "children": [
+                {
+                    "_type": "span",
+                    "marks": [],
+                    "text": "Do not using bleach.",
+                    "_key": "8671a8756b280"
+                }
+            ],
+            "_type": "block",
+            "style": "normal",
+            "_key": "44877962db5c"
+        },
+        {
+            "children": [
+                {
+                    "_type": "span",
+                    "marks": [],
+                    "text": "Hang it to dry.",
+                    "_key": "6f0e31cf758a0"
+                }
+            ],
+            "_type": "block",
+            "style": "normal",
+            "_key": "167658a38521",
+            "markDefs": []
+        },
+        {
+            "_type": "block",
+            "style": "normal",
+            "_key": "7ea4818841fa",
+            "markDefs": [],
+            "children": [
+                {
+                    "_key": "4fd433a2f2150",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "Iron on low temperature."
+                }
+            ]
+        }
+    ],
+    "_rev": "vz3Lz6BV8NTrCpLY2ozzKn",
+    "_type": "product",
+    "tags": "Casual Shirts",
+    "price": 795,
+    "_createdAt": "2022-12-27T15:33:15Z",
+    "details": [
+        {
+            "children": [
+                {
+                    "text": " Crafted from premium quality cotton, these shirts offer a soft, breathable feel perfect for everyday wear. With a variety of vibrant colors and timeless patterns, they effortlessly elevate your casual wardrobe. Pair them with jeans or chinos for a relaxed yet polished look that transitions seamlessly from day to night. Experience the ultimate blend of comfort and style with our casual cotton shirts.",
+                    "_key": "207d5bbb412d0",
+                    "_type": "span",
+                    "marks": []
+                }
+            ],
+            "_type": "block",
+            "style": "normal",
+            "_key": "ba3ed1133174",
+            "markDefs": []
+        }
+    ],
+    "_id": "e9a6ab2f-adc1-4a72ebf-a04e5d7b3b50"
+},
+{
+    "image": [
+        {
+            "_type": "image",
+            "_key": "07a4b0d2d365",
+            "asset": {
+                "_ref": "https://lh3.google.com/u/0/d/1tOguhcO04gjV9jEMyp96WESB5igybSy6=w2000-h1362-iv1",
+                "_type": "reference"
+            }
+        }
+    ],
+    "name": "Yellow",
+    "category": "Male",
+    "_updatedAt": "2022-12-27T15:33:15Z",
+    "slug": {
+        "current": "Yellow",
+        "_type": "slug"
+    },
+    "care": [
+        {
+            "markDefs": [],
+            "children": [
+                {
+                    "text": "Hand wash using cold water.",
+                    "_key": "c4011bb6484b0",
+                    "_type": "span",
+                    "marks": []
+                }
+            ],
+            "_type": "block",
+            "style": "normal",
+            "_key": "99d6cccc3e69"
+        },
+        {
+            "markDefs": [],
+            "children": [
+                {
+                    "_type": "span",
+                    "marks": [],
+                    "text": "Do not using bleach.",
+                    "_key": "8671a8756b280"
+                }
+            ],
+            "_type": "block",
+            "style": "normal",
+            "_key": "44877962db5c"
+        },
+        {
+            "children": [
+                {
+                    "_type": "span",
+                    "marks": [],
+                    "text": "Hang it to dry.",
+                    "_key": "6f0e31cf758a0"
+                }
+            ],
+            "_type": "block",
+            "style": "normal",
+            "_key": "167658a38521",
+            "markDefs": []
+        },
+        {
+            "_type": "block",
+            "style": "normal",
+            "_key": "7ea4818841fa",
+            "markDefs": [],
+            "children": [
+                {
+                    "_key": "4fd433a2f2150",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "Iron on low temperature."
+                }
+            ]
+        }
+    ],
+    "_rev": "vz3Lz6BV8NTrCpLY2ozzKn",
+    "_type": "product",
+    "tags": "Casual Shirts",
+    "price": 695,
+    "_createdAt": "2022-12-27T15:33:15Z",
+    "details": [
+        {
+            "children": [
+                {
+                    "text": " Crafted from premium quality cotton, these shirts offer a soft, breathable feel perfect for everyday wear. With a variety of vibrant colors and timeless patterns, they effortlessly elevate your casual wardrobe. Pair them with jeans or chinos for a relaxed yet polished look that transitions seamlessly from day to night. Experience the ultimate blend of comfort and style with our casual cotton shirts.",
+                    "_key": "207d5bbb412d0",
+                    "_type": "span",
+                    "marks": []
+                }
+            ],
+            "_type": "block",
+            "style": "normal",
+            "_key": "ba3ed1133174",
+            "markDefs": []
+        }
+    ],
+    "_id": "e9a6ab2f-adc1-4a72-8ebf-a04e5d7b3b50"
+}
+]
