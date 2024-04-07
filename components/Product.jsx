@@ -9,7 +9,7 @@ const Product = ({product: {image, name, slug, price}}) => {
         <div className='product-card'>
           <img src={image[0].asset._ref} width={380} height={400} className='product-image' />
           <p className='product-name'>{name}</p>
-          <p className='product-price'>${price}</p>
+          <p className='product-price'>₹{price}</p>
         </div>
       </Link>
     </div>

@@ -58,7 +58,7 @@ const Cart = () => {
                 <p className='delivery-est'>Delivery Estimation</p>
                 <p className='delivery-days'>5 Working Days</p>
                 <div className='price-and-qty'>
-                  <span className='price'>${item.price * item.quantity}</span>  
+                  <span className='price'>₹{item.price * item.quantity}</span>  
                   <div>
                     <span className='minus' onClick={() => toggleCartItemQuantity(item._id, 'dec')}><AiOutlineMinus /></span>
                     <span className='num' onClick=''>{item.quantity}</span>
@@ -79,11 +79,11 @@ const Cart = () => {
           </div>
           <div className='subtotal'>
             <p>Sub Total</p>
-            <span>${totalPrice}</span>
+            <span>₹{totalPrice}</span>
           </div>
           {/* <div className='total'>
             <p>Total</p>
-            <span>${totalPrice}</span>
+            <span>₹{totalPrice}</span>
           </div>  */}
           <div>
             <button className='btn' type='button' onClick={handleCheckout}>Process to Checkout</button>

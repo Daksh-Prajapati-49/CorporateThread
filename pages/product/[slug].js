@@ -29,6 +29,7 @@ const ProductDetails = ({products, product}) => {
                             onMouseEnter={() => setIndex(ind)} />
                         ))} */}
                         <img 
+                            // src={image[0].asset._ref}
                             src={image[0].asset._ref} 
                             className='small-image' 
                             onMouseEnter={() => setIndex(ind)} />
@@ -121,15 +122,15 @@ export const getStaticProps = async ({params: {slug}}) => {
             props: {products, product : data[1]}
         }
     }
-    if(slug == "3"){
+    // if(slug == "3"){
         return {
             props: {products, product : data[2]}
         }
-    }
+    // }
   
-    return {
-      props: { products, product }
-    }
+    // return {
+    //   props: { products, product }
+    // }
 }
 
 // Generates `/product/1` and `/product/2`
